@@ -73,7 +73,7 @@ const translations = {
         // Product Descriptions
         product_belle_fleur: "A delicate blend of rose and jasmine that captures the essence of a blooming garden.",
         product_dots_vanille: "Warm vanilla notes blended with subtle spices create an irresistible, comforting fragrance.",
-        product_lumer_citrus: "Fresh citrus notes with hints of bergamot and lemon, perfect for bright and vibrant days.",
+        product_lumer_citrus: "Serika is a variant with a soft and sweet vanilla scent, feminine and elegant, combining a gentle sweetness with a calming fresh touch.",
         product_be_influencer: "A bold and empowering fragrance that makes a statement wherever you go.",
         product_royale_amber: "A luxurious extraction of amber and musk, the crown jewel of our collection.",
         product_nuit_elixir: "A mysterious nocturnal blend of dark woods and sensual florals for evening enchantment.",
@@ -137,7 +137,7 @@ const translations = {
         // Product Descriptions
         product_belle_fleur: "Perpaduan halus mawar dan bunga melati yang menangkap esensi taman yang mekar.",
         product_dots_vanille: "Catatan vanilla hangat dipadukan dengan rempah halus menciptakan wewangian yang tak tertahankan dan menenangkan.",
-        product_lumer_citrus: "Catatan sitrus segar dengan sentuhan bergamot dan lemon, sempurna untuk hari-hari cerah dan penuh semangat.",
+        product_lumer_citrus: "Serika adalah varian dengan karakter aroma yang lembut manis  vanilla, feminin, dan elegan, memadukan nuansa manis yang halus dengan sentuhan segar yang menenangkan. ",
         product_be_influencer: "Wewangian berani dan memberdayakan yang membuat pernyataan di mana pun Anda berada.",
         product_royale_amber: "Ekstraksi mewah amber dan musk, permata mahkota koleksi kami.",
         product_nuit_elixir: "Perpaduan nokturnal misterius dari kayu gelap dan bunga sensual untuk pesona malam.",

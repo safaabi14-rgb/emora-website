@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMORA - Luxury Perfume Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Crimson+Text:ital@0;1&family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-text">EMORA</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link" data-translate="nav_home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-translate="nav_about">About</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link" data-translate="nav_perfumes">Perfumes</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link" data-translate="nav_reviews">Reviews</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en" title="English">EN</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="id" title="Bahasa Indonesia">ID</button>
+            </div>
+            <div class="theme-switcher">
+                <button class="theme-btn" id="theme-toggle" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">EMORA</h1>
+            <p class="hero-subtitle animate-fade-in-delay">L'essence de la luxe</p>
+            <p class="hero-tagline animate-fade-in-delay" data-translate="hero_tagline">Unveil Your Signature Scent</p>
+            <button class="cta-button animate-fade-in-delay-2" data-translate="btn_shop">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-translate="about_title">The Essence of Elegance</h2>
+                    <p class="about-slogan">Parfumerie d'exception depuis 2026</p>
+                    <p class="about-description" data-translate="about_desc1">
+                        EMORA is a luxury perfume brand inspired by the timeless elegance of Paris and the sophistication of modern French craftsmanship. Each fragrance is meticulously created to tell a unique story of luxury, femininity, and refinement.
+                    </p>
+                    <p class="about-description" data-translate="about_desc2">
+                        Our collection combines the finest ingredients with artistic vision, creating scents that transcend time and captivate the senses. EMORA is more than a perfume—it's an expression of your unique personality and style.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about/about-collection.jpg" alt="EMORA Signature Collection" class="about-photo" onerror="this.style.display='none'">
+                    <div class="placeholder-image" data-translate="placeholder_about">✧ Signature Collection ✧</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="products_title">Our Perfumes</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all" data-translate="filter_all">All</button>
+                <button class="filter-btn" data-filter="edp" data-translate="filter_edp">EDP</button>
+                <button class="filter-btn" data-filter="extrait" data-translate="filter_extrait">Extrait</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="products-grid">
+                <!-- sekarjiwa -->
+                <div class="product-card" data-category="edp">
+                    <div class="product-image">
+                        <img src="assets/images/products/belle-fleur.jpg" alt="Belle Fleur Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sekarjiwa</h3>
+                        <p class="product-type" data-translate="product_type_edp">EDP</p>
+                        <p class="product-description" data-translate="product_belle_fleur">A delicate blend of rose and jasmine that captures the essence of a blooming garden.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Cendara-->
+                <div class="product-card" data-category="edp">
+                    <div class="product-image">
+                        <img src="assets/images/products/dots-vanille.jpg" alt="Dots Vanille Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cendara</h3>
+                        <p class="product-type" data-translate="product_type_edp">EDP</p>
+                        <p class="product-description" data-translate="product_dots_vanille">Warm vanilla notes blended with subtle spices create an irresistible, comforting fragrance.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Lumer Citrus -->
+                <div class="product-card" data-category="edp">
+                    <div class="product-image">
+                        <img src="assets/images/products/lumer-citrus.jpg" alt="Lumer Citrus Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product">Lumer Citrus</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Lumer Citrus</h3>
+                        <p class="product-type" data-translate="product_type_edp">EDP</p>
+                        <p class="product-description" data-translate="product_lumer_citrus">Fresh citrus notes with hints of bergamot and lemon, perfect for bright and vibrant days.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Be Influencer -->
+                <div class="product-card" data-category="edp">
+                    <div class="product-image">
+                        <img src="assets/images/products/be-influencer.jpg" alt="Be Influencer Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product">Be Influencer</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Be Influencer</h3>
+                        <p class="product-type" data-translate="product_type_edp">EDP</p>
+                        <p class="product-description" data-translate="product_be_influencer">A bold and empowering fragrance that makes a statement wherever you go.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Royale Amber -->
+                <div class="product-card featured-product" data-category="extrait">
+                    <div class="product-image">
+                        <img src="assets/images/products/royale-amber.jpg" alt="Royale Amber Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product featured-icon">✦ Signature ✦</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Royale Amber</h3>
+                        <p class="product-type" data-translate="product_type_extrait">EXTRAIT</p>
+                        <p class="product-description" data-translate="product_royale_amber">A luxurious extraction of amber and musk, the crown jewel of our collection.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Nuit Elixir -->
+                <div class="product-card" data-category="extrait">
+                    <div class="product-image">
+                        <img src="assets/images/products/nuit-elixir.jpg" alt="Nuit Elixir Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product">Nuit Elixir</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nuit Elixir</h3>
+                        <p class="product-type" data-translate="product_type_extrait">EXTRAIT</p>
+                        <p class="product-description" data-translate="product_nuit_elixir">A mysterious nocturnal blend of dark woods and sensual florals for evening enchantment.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Velvet Oud -->
+                <div class="product-card" data-category="extrait">
+                    <div class="product-image">
+                        <img src="assets/images/products/velvet-oud.jpg" alt="Velvet Oud Perfume" onerror="this.style.display='none'">
+                        <div class="placeholder-product">Velvet Oud</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Velvet Oud</h3>
+                        <p class="product-type" data-translate="product_type_extrait">EXTRAIT</p>
+                        <p class="product-description" data-translate="product_velvet_oud">Rich oud combined with velvet florals, an exquisite masterpiece of sophistication.</p>
+                        <button class="product-button" data-translate="btn_view_details">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-translate="testimonials_title">What Our Customers Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-translate="testimonial_1">"EMORA perfumes are absolutely divine! The quality and elegance are unmatched. I've never felt more confident wearing a fragrance."</p>
+                    <p class="testimonial-author">— Sarah Mitchell</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-translate="testimonial_2">"The attention to detail and sophistication in every perfume is remarkable. EMORA has become my daily indulgence and I couldn't ask for anything better."</p>
+                    <p class="testimonial-author">— Emma Laurent</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-translate="testimonial_3">"Investing in EMORA was the best decision for my fragrance collection. Each scent tells a beautiful story and lasts throughout the entire day."</p>
+                    <p class="testimonial-author">— Jessica Chen</p>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="social_title">Connect With Us</h2>
+            <p class="social-subtitle" data-translate="social_subtitle">Follow EMORA for exclusive updates and special offers</p>
+            <div class="social-links">
+                <button class="social-icon tiktok-btn" id="tiktok-modal-btn" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </button>
+                <a href="https://wa.me/628123456789" target="_blank" class="social-icon" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/emora" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TikTok Modal -->
+    <div class="modal" id="tiktok-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h3 class="modal-title" data-translate="tiktok_choose">Choose TikTok Channel</h3>
+            <p class="modal-subtitle" data-translate="tiktok_subtitle">Select which channel you want to follow</p>
+            <div class="tiktok-options">
+                <a href="https://www.tiktok.com/@emora_live" target="_blank" class="tiktok-option">
+                    <div class="option-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4 data-translate="tiktok_live">Live Channel</h4>
+                        <p data-translate="tiktok_live_desc">Watch live streaming & daily content</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="https://www.tiktok.com/@emora_official" target="_blank" class="tiktok-option">
+                    <div class="option-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4 data-translate="tiktok_store">Official Store</h4>
+                        <p data-translate="tiktok_store_desc">Shop our products & exclusive deals</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">EMORA</h3>
+                    <p data-translate="footer_tagline">Luxury Perfume Brand</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer_nav">Navigation</h4>
+                    <ul>
+                        <li><a href="#hero" data-translate="footer_home">Home</a></li>
+                        <li><a href="#about" data-translate="footer_about">About</a></li>
+                        <li><a href="#products" data-translate="footer_perfumes">Perfumes</a></li>
+                        <li><a href="#testimonials" data-translate="footer_reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer_follow">Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://tiktok.com/@emora" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/628123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/emora" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2026 EMORA Perfume. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

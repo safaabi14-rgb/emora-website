@@ -75,9 +75,9 @@ const translations = {
         product_dots_vanille: "Warm vanilla notes blended with subtle spices create an irresistible, comforting fragrance.",
         product_lumer_citrus: "Serika is a variant with a soft and sweet vanilla scent, feminine and elegant, combining a gentle sweetness with a calming fresh touch.",
         product_be_influencer: "A bold and empowering fragrance that makes a statement wherever you go.",
-        product_royale_amber: "A luxurious extraction of amber and musk, the crown jewel of our collection.",
-        product_nuit_elixir: "A mysterious nocturnal blend of dark woods and sensual florals for evening enchantment.",
-        product_velvet_oud: "Rich oud combined with velvet florals, an exquisite masterpiece of sophistication.",
+        product_douce_vanille: "Aroma powdery manis vanilla dengan sentuhan fresh natural",
+        product_nuit_elixir: "Citrus floral aroma with sweet vanilla fresh combination creating an authentic distinctive fragrance.",
+        product_baie_en_fleurs: "Aroma manis romantic buah dengan kombinasi sweet candy & caramel",
         
         // Testimonials Section
         testimonials_title: "What Our Customers Say",
@@ -137,11 +137,11 @@ const translations = {
         // Product Descriptions
         product_belle_fleur: "Perpaduan halus mawar dan bunga melati yang menangkap esensi taman yang mekar.",
         product_dots_vanille: "Catatan vanilla hangat dipadukan dengan rempah halus menciptakan wewangian yang tak tertahankan dan menenangkan.",
-        product_lumer_citrus: "Serika adalah varian dengan karakter aroma yang lembut manis  vanilla, feminin, dan elegan, memadukan nuansa manis yang halus dengan sentuhan segar yang menenangkan. ",
+        product_lumer_citrus: "Serika adalah varian dengan karakter aroma yang lembut manis  vanilla, feminin, dan elegan, memadukan nuansa manis yang halus dengan sentuhan segar yang menenangkan.    ",
         product_be_influencer: "Wewangian berani dan memberdayakan yang membuat pernyataan di mana pun Anda berada.",
-        product_royale_amber: "Ekstraksi mewah amber dan musk, permata mahkota koleksi kami.",
-        product_nuit_elixir: "Perpaduan nokturnal misterius dari kayu gelap dan bunga sensual untuk pesona malam.",
-        product_velvet_oud: "Oud kaya dikombinasikan dengan bunga beludru, mahakarya kecanggihan yang luar biasa.",
+        product_douce_vanille: "Aroma powdery manis vanilla dengan sentuhan fresh natural",
+        product_nuit_elixir: "Aroma bunga citrus dengan kombinasi manis vanilla fresh menghasilkan aroma otentik yang khas",
+        product_baie_en_fleurs: "Aroma manis romantic buah dengan kombinasi sweet candy & caramel",
         
         // Testimonials Section
         testimonials_title: "Apa Kata Pelanggan Kami",

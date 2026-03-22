@@ -696,8 +696,8 @@ body {
 
 @media (min-width: 768px) {
     .featured-product {
-        grid-column: span 2;
-        scale: 1.05;
+        grid-column: span 1;
+        scale: 1;
     }
 }
 

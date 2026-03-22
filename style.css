@@ -1176,6 +1176,10 @@ body.dark-mode .footer {
         scale: 1;
     }
 
+    .testimonials {
+        padding: 60px 0 80px 0;
+    }
+
     .testimonial-card {
         padding: 2rem 1.5rem;
         height: auto;
@@ -1183,6 +1187,15 @@ body.dark-mode .footer {
 
     .testimonials-carousel {
         height: auto;
+        margin-top: 2rem;
+    }
+
+    .carousel-controls {
+        margin-top: 2.5rem;
+    }
+
+    .social-section {
+        padding: 80px 0;
     }
 
     .social-links {
@@ -1195,8 +1208,17 @@ body.dark-mode .footer {
         font-size: 1.5rem;
     }
 
+    .footer {
+        padding: 80px 0 30px 0;
+    }
+
     .footer-content {
         grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .footer-section {
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -1236,8 +1258,24 @@ body.dark-mode .footer {
         height: 200px;
     }
 
+    .testimonials {
+        padding: 50px 0 70px 0;
+    }
+
     .testimonial-card {
         padding: 1.5rem 1rem;
+    }
+
+    .testimonials-carousel {
+        margin-top: 1.5rem;
+    }
+
+    .carousel-controls {
+        margin-top: 2rem;
+    }
+
+    .social-section {
+        padding: 70px 0;
     }
 
     .social-icon {
@@ -1249,6 +1287,18 @@ body.dark-mode .footer {
     .carousel-btn {
         width: 45px;
         height: 45px;
+    }
+
+    .footer {
+        padding: 70px 0 25px 0;
+    }
+
+    .footer-content {
+        gap: 2rem;
+    }
+
+    .footer-section {
+        margin-bottom: 1rem;
     }
 
     .modal-content {
